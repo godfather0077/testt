@@ -36,28 +36,28 @@ function Welcome({href}) {
 <section>
         <div>
     <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="#">
             <Image src="https://www.livetechskills.com/Encyc/2021/2/15/2_02_54_21_About-Us_1_H@@IGHT_251_W@@IDTH_770.png" style={{width:120 ,height:42,marginLeft:"-5%"}}className="d-inline-block align-top" alt=""/>
-        </a>
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" href="#">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Courses</a>
+              <Link className="nav-link" href="#">Courses</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Webinars</a>
+              <Link className="nav-link" href="#">Webinars</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <Link className="nav-link" href="#">Contact</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Resources</a>
+              <Link className="nav-link" href="#">Resources</Link>
             </li>
             <form className="form-inline my-2 my-lg-0">
                 
@@ -65,11 +65,11 @@ function Welcome({href}) {
             <Link href="/Signup"><button type="button" className="btn btn-outline-danger">Login/Signup</button></Link>
               </form>
               <li className="nav-item">
-                <a className="nav-link" href="#">TollFree:1800******</a>
+                <Link className="nav-link" href="#">TollFree:1800******</Link>
               </li>
-              <a className="Imagenav" href="#">
+              <Link className="Imagenav" href="#">
                 <Image src="https://www.vectorkhazana.com/assets/images/products/Google_Mail_ico.jpg" style={{width:20,height:20}} alt=""/>
-              </a>
+              </Link>
             
             
           </ul>
